@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(203, 250, 250);
+}
+
+.registro{
+   width: 50%;
+   padding: 20%;
+   background: white;
+   margin:auto
+
+}

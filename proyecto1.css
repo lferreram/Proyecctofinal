@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center ;
+    background-image:url(oficinas-google-hungria-1.jpg) ;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    margin: auto;
+}
+/*Arreglando la caja del titulo*/
+.titulo {
+    text-align: center;
+    color: rgb(111, 34, 121);
+    border-style: double;
+    padding: 7px;
+}
+
+.registro{
+    color:rgb(35, 35, 109);
+    flex-direction: column;
+    display: flex;
+}
+
+/*El tamaño de la caja de los inputs*/
+input{
+    padding: 5px;
+}
+/*El color de la caja de los inputs*/
+input:focus{
+    outline: solid green 2px;
+}
+
+/*Modificar boton de agregado*/
+.boton{
+    background-color: green;
+    border:none;
+    padding: 5px;
+    color:white
+}
+
